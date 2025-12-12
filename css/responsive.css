@@ -1,0 +1,147 @@
+/* // X-Small devices (portrait phones, less than 320px) */
+@media (max-width: 320px) {
+  .menu {
+    padding: 10px 0px;
+  }
+
+  .menu .navbar-nav .nav-item .nav-link {
+    display: block;
+    background: #666;
+    color: #fff;
+    padding: 10px 0px;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+  }
+  .navBtnPart {
+    display: flex;
+    background: #666;
+    padding: 10px 0px;
+  }
+  .navBtnPart a,
+  .navBtnPart a.accBtn {
+    display: inline-block;
+    font-size: 12px;
+    color: #fff !important;
+  }
+
+  .bannerSlider {
+    padding: 10px 15px;
+  }
+  .owl-nav {
+    display: none;
+  }
+  .fixedBtn {
+    display: none;
+  }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 320.1px) and (max-width: 576px) {
+  .fixedBtn {
+    display: none;
+  }
+  .menu {
+    padding: 10px 0px;
+  }
+
+  .owl-nav {
+    display: none;
+  }
+
+  .menu .navbar-nav .nav-item .nav-link {
+    display: block;
+    background: #666;
+    color: #fff;
+    padding: 10px 0px;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+  }
+  .navBtnPart {
+    display: flex;
+    background: #666;
+    padding: 10px 0px;
+  }
+  .navBtnPart a,
+  .navBtnPart a.accBtn {
+    display: inline-block;
+    font-size: 12px;
+    color: #fff !important;
+  }
+
+  .bannerSlider {
+    padding: 10px 15px;
+  }
+
+  .copyPart .copyP {
+    display: flex;
+    justify-content: center;
+  }
+
+  .visaCard {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 576.1px) and (max-width: 768px) {
+  .fixedBtn {
+    display: none;
+  }
+  .menu {
+    padding: 10px 0px;
+  }
+
+  .owl-nav {
+    display: none;
+  }
+
+  .menu .navbar-nav .nav-item .nav-link {
+    display: block;
+    background: #666;
+    color: #fff;
+    padding: 10px 0px;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+  }
+  .navBtnPart {
+    display: flex;
+    background: #666;
+    padding: 10px 0px;
+  }
+  .navBtnPart a,
+  .navBtnPart a.accBtn {
+    display: inline-block;
+    font-size: 12px;
+    color: #fff !important;
+  }
+
+  .bannerSlider {
+    padding: 10px 15px;
+  }
+
+  .copyPart .copyP {
+    display: flex;
+    justify-content: center;
+  }
+
+  .visaCard {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  ...;
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  ...;
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+  ...;
+}
